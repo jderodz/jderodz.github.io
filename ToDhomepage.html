@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<style>
+body {
+	background-color: #000000;
+	font-family:"Courier New",Courier, monospace;
+  color: #00cc00;
+  text-align: center;
+  font-size: 50px;
+}
+p {
+  color: #ff0000;
+  font-size: 40px;
+}
+button.buttonleft{
+  color:#00ff00;
+  height:50px;
+  width:100px;
+  font-size:30px;
+  background-color:gray;
+  font-family:Impact, Charcoal, sans-serif;
+  float:left;
+  margin-left: 50px;
+}
+
+button.buttonright{
+  color:#00ff00;
+  height:50px;
+  width:100px;
+  font-size:30px;
+  background-color:gray;
+  font-family:Impact, Charcoal, sans-serif;
+  float:right;
+  margin-right: 50px;
+}
+</style>
+  <h1 style= "height:70px">TRUTH OR DARE</h1>
+  <p style="margin:0;height:30px"> Enter if you dare... </p>
+
+  <body>
+    <p style= "font-size:50px;color:#ffff00;font-style:italic" id="text"> Choose your poison!</p>
+  <!-- <p id="random"></p> -->
+
+  <!-- <p id="random2"></p> -->
+  <!-- <p id="random3"></p> -->
+
+  <!-- <p id="random4"></p> -->
+  <div class="buttonleft">
+    <button class= "buttonleft" type="button"
+    onclick="normalTruth()">
+    Truth</button>
+
+    <button class="buttonleft" type="button" style="color:#ff3300"
+  onclick="normalDare()">
+  Dare</button>
+  </div>
+
+  <div class= "buttonright">
+    <button class="buttonright" type="button"
+  onclick="extremeTruth()">
+  ETruth</button>
+
+  <button class="buttonright" type="button" style="color:#ff3300"
+  onclick="extremeDare()">
+  EDare</button>
+  </div>
+
+  <script src="main.js">
+  </script>
+  </body>
+
+
+
+</html>
