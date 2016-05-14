@@ -84,7 +84,6 @@ var extremeTruth= function() {
     "Choose three people that you would have intercourse with in this group.",
     "Would you rather have sex with the person to the right or left of you?",
     "What's the dirtiest fantasy you've had and with who?"
-    ""
   ];
 var text = document.getElementById("text");
 var question = extremeTruths[parseInt(Math.random() * extremeTruths.length)];
